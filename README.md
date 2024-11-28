@@ -83,3 +83,4 @@ spring.rabbitmq.password=guest
   docker-compose up -d --build
   ```
 - Asegurate de tener ambos microservicios en el mismo directorio al mismo nivel del archivo **docker-compose.yml**
+- En el mismo directorio raiz que contiene los dos proyectos se encuentra el archivo **devsu_challenge.postman_collection.json** que contiene la coleccion de peticiones HTTP de ambos microservicios lista a importar en la herramienta POSTMAN 
